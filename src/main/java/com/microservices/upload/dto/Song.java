@@ -6,6 +6,10 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 
 //@Data
+/**
+ * @author pawar
+ * Entity class for song
+ */
 @Entity
 public class Song {
 	@Id
@@ -20,6 +24,16 @@ public class Song {
 		this.title = title;
 		this.fileType = fileType;
 		this.byteData = byteData;
+	}
+
+	public Song() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Song(long id, String title) {
+		this.id=id;
+		this.title=title;
+		// TODO Auto-generated constructor stub
 	}
 
 	public long getId() {

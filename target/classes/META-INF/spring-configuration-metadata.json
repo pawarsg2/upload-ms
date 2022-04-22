@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "data.exception",
+      "type": "com.microservices.upload.config.ExceptionMessageConfig",
+      "sourceType": "com.microservices.upload.config.ExceptionMessageConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "data.exception.message1",
+      "type": "java.lang.String",
+      "sourceType": "com.microservices.upload.config.ExceptionMessageConfig"
+    },
+    {
+      "name": "data.exception.message2",
+      "type": "java.lang.String",
+      "sourceType": "com.microservices.upload.config.ExceptionMessageConfig"
+    },
+    {
+      "name": "data.exception.message3",
+      "type": "java.lang.String",
+      "sourceType": "com.microservices.upload.config.ExceptionMessageConfig"
+    }
+  ],
+  "hints": []
+}

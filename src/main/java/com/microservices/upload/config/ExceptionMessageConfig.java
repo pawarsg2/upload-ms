@@ -5,9 +5,17 @@ import org.springframework.context.annotation.Configuration;
 
 import lombok.Data;
 
+
+/**
+ * @author pawar
+ * 
+ * Read Error from application property
+ *
+ */
 @Configuration
 @ConfigurationProperties(prefix = "data.exception")
 @Data
+
 public class ExceptionMessageConfig {
 	
 	

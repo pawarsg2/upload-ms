@@ -10,6 +10,12 @@ import com.microservices.upload.config.ExceptionMessageConfig;
 import com.microservices.upload.exception.SongAlreadyExistsException;
 import com.microservices.upload.exception.SongNotFoundException;
 
+/**
+ * @author pawar
+ * 
+ * Global exception handling
+ *
+ */
 @ControllerAdvice
 public class GlobalExceptionHandler {
 	
